@@ -19,16 +19,16 @@ comfyui崩溃提醒
 "xxxx年xx月xx日xx:xx:xx - task_filename  
 耗时：xx时xx分xx秒"的字符串内容（时间为任务开始时间）  
   
-timer record节点：  
-需要两个  
-两个trigger分别连接任务开始和结束经过的节点  
-time_recorder连接到timer out节点的start_time和end_time  
-！！这两个节点的输出都要额外接一个预览，不然会出bug导致耗时显示为0！！  
-  
+timer record节点：<br>
+需要两个<br>
+两个trigger分别连接任务开始和结束经过的节点<br>
+time_recorder连接到timer out节点的start_time和end_time<br><br>
+！！这两个节点的输出都要额外接一个预览，不然会出bug导致耗时显示为0！！<br>
+  <br>
 timer output节点:  
 start_time连接到开始时间的timer record节点  
 end_time连接到结束时间的timer record节点
-task_filename为字符串中需要显示文件名，不填则为空
+task_filename为字符串中需要显示文件名，不填则为空  
 log_filename为保存文件的名字，需要是txt格式，会在文件的下一行写入字符串信息，不填则不保存至文件
 <br><br><br>
 全部由ai制作，真的这种基础功能我从没想过得现造，类似功能插件老是莫名失效，要不就是麻烦。鉴于我应该不会更新，就不研究怎么匹配git链接安装了
