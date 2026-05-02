@@ -22,7 +22,7 @@ comfyui崩溃提醒
 timer record节点：<br>
 需要两个<br>
 两个trigger分别连接任务开始和结束经过的节点<br>
-time_recorder连接到timer out节点的start_time和end_time<br><br>
+time_recorder连接到timer out节点的start_time和end_time<br>
 ！！这两个节点的输出都要额外接一个预览，不然会出bug导致耗时显示为0！！<br>
   <br>
 timer output节点:  
