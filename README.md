@@ -1,4 +1,4 @@
-# Comfyui-task-notify-timer-watchdog-optional-email-sending
+# Comfyui-Task_notify-Timer-Watchdog-Optional_email_sending
 安装方法：
 全部放入COMFYUI
 <br><br><br>
